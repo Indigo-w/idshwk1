@@ -1,1 +1,1 @@
- alert tcp any any -> any 8080 (flags: A; content:"I am IDS Homework I"; offset: 100; depth: 100; msg: "TEST ALERT"; sid:20210319;)
+ alert tcp any any -> any 8080 (msg: "TEST ALERT"; flags:A; content:"I am IDS Homework I"; offset:99; depth:101; sid:20210319;)
